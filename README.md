@@ -81,6 +81,7 @@ cp env_template .env
 执行训练脚本来启动智能体的训练过程。训练指标和结果将被记录到 Weights & Biases。
 
 ```bash
+python LLM_cache.py   #大模型缓存代理，用于请求Openai
 python train.py
 ```
 

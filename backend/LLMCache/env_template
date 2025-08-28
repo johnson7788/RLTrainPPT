@@ -1,0 +1,4 @@
+OPENAI_API_KEY=sk-proj-xxx
+ZHIPU_API_KEY=xxxxx
+HTTP_PROXY=http://127.0.0.1:7890
+HTTPS_PROXY=http://127.0.0.1:7890
