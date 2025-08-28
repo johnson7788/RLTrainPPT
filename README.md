@@ -92,3 +92,6 @@ python train.py
 ```bash
 python model_test.py
 ```
+
+## 有任何问题联系我
+![weichat.png](doc/weichat.png)
