@@ -1,0 +1,17 @@
+__pycache__/
+.art/
+# .env
+.venv/
+grpo_trainer_lora_model/
+logs/
+shared_cache.db
+streaming-chat-completions/
+unsloth_compiled_cache/
+wandb/
+docs/node_modules/
+dist/
+dev/art-e/data/
+replays/
+trajectories/
+.DS_Store
+# .local/

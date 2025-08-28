@@ -1,0 +1,44 @@
+---
+title: "Quick Start"
+description: "Get started with ART in a few quick steps."
+icon: "forward"
+---
+
+In this Quick Start tutorial, we'll be training Qwen 2.5 3B to play [2048](https://play2048.co/), a simple game that requires forward planning and basic math skills.
+
+<Info>
+
+Reading time: <b>15 min</b>
+
+Training time: <b>2 hours</b>
+
+Total cost: <b>Free!</b>
+
+</Info>
+
+## Step 1: Provision optional API keys
+
+[ART](https://github.com/OpenPipe/art) is an open source library and does not require an API key to run in Google Colab, which we'll use for this quick start. But if you're interested in seeing the progress of your training runs and inspecting your model's completions as it trains, you can optionally provision API keys from platforms like Weights & Biases.
+
+If you'd like to enable observability while working through this guide, create a W&B account and provision an API key.
+
+- [Weights & Biases](https://wandb.ai/home)
+
+Once you have your Weights & Biases API key, open the [notebook](https://colab.research.google.com/github/openpipe/art-notebooks/blob/main/examples/2048/2048.ipynb) in Google Colab and set them in the **Environment Variables** cell.
+
+Once your API keys are set, or if you won't need observability while completing this walkthrough, continue on to the next step.
+
+## Step 2: Prepare your notebook
+
+If you haven't already, open the [notebook](https://colab.research.google.com/github/openpipe/art-notebooks/blob/main/examples/2048/2048.ipynb) in Google Colab and connect to a T4 runtime environment.
+
+<Accordion title="Connecting to a T4 GPU">
+  In the top bar of your Google Colab notebook, find *Runtime* > *Change runtime
+  type* to open the selection modal. Select **T4 GPU** and hit **Save**.
+</Accordion>
+
+## Step 3: Run the notebook
+
+From here on out, you can follow the instructions in the notebook! While training is occuring, remember to track your progress in [Weights & Biases](https://wandb.ai).
+
+If you have questions along the way, please ask in the [Discord](https://discord.gg/zbBHRUpwf4). Happy training!
