@@ -98,5 +98,10 @@ python train.py
 python model_test.py
 ```
 
+#### 训练完成后的模型如何使用
+- 合并训练后的lora模型。
+- 使用ollama或者vllm加载模型，注意兼容Openai模式。
+- 使用litellm调用ollamma或者vllm的接口地址。
+
 ## 有任何问题联系我
 ![weichat.png](doc/weichat.png)
