@@ -1,5 +1,7 @@
 # Langgraph ART 训练模型, 单Agent结构
 
+## 注意，测试时使用小模型，例如qwen0.5B，训练时使用较大参数大模型，例如qwen7B。
+
 ## 搜索输出
 WebSearchClient = ZhipuAiClient(api_key="your-api-key")
 response = WebSearchClient.web_search.web_search(
@@ -36,7 +38,7 @@ ps aux | grep train.py | grep -v grep | awk '{print $2}' | xargs kill -9
 ## wandb日志
 http://192.168.100.8:3005/johnson/web-search-agent-training
 
-
+## 奖励函数的逻辑
 # 1) 格式奖励（format_reward，0~1）
 
 衡量输出是否严格保持原大纲结构并充分填充 text：
