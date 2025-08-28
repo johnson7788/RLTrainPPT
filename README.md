@@ -62,7 +62,6 @@ cd backend/ART_Langgraph_content
 # 3. (推荐) 创建并激活虚拟环境
 python -m venv venv
 source venv/bin/activate  # macOS/Linux
-# venv\Scripts\activate   # Windows
 
 # 4. 安装依赖
 pip install -r requirements.txt
@@ -71,21 +70,8 @@ pip install -r requirements.txt
 ### 3. 配置环境变量
 
 在 `backend/ART_Langgraph_content` 目录下创建一个 `.env` 文件，并填入必要的密钥信息。
-
-```.env
-# 智谱AI API Key
-ZHIPU_API_KEY="YOUR_ZHIPU_API_KEY"
-
-# (可选) Weights & Biases 配置
-WANDB_PROJECT="outline-training"
-WANDB_ENTITY="your-wandb-username"
-WANDB_API_KEY="YOUR_WANDB_API_KEY"
-
-# (可选) ART 训练配置
-ART_NAME="outline-webfill"
-ART_MODEL="Qwen/Qwen2.5-0.5B-Instruct" # 您想微调的基础模型
-ART_PROJECT="outline-training"
-ART_BACKEND="local" # 使用本地后端进行训练
+```
+cp env_template .env
 ```
 
 ### 4. 运行项目
