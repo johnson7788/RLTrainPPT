@@ -3,6 +3,9 @@
 # 启动
 ./clash-linux-amd64-v1.10.0 -d .
 
+# config.yml是VPN的配置文件，请拷贝你的Clash的电脑上的相同的配置文件到这里，进行替换
+请手动替换config.yml文件
+
 # 容器启动
 docker build -t clash .
 
