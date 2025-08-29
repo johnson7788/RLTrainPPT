@@ -4,7 +4,12 @@
 - 训练PPT大纲Agent： 根据主题，使用web search经过多轮搜索，生成符合大纲。
 - 训练PPT内容Agent： 根据大纲整体和每一页的需求，使用web search和图片搜索，生成符合格式要求的PPT内容，主要是来源可靠，格式正确。
 
+
+## 训练PPT生成大纲
+[ART_Langgraph_outline](backend/ART_Langgraph_outline)
+
 ## 训练PPT内容Agent描述
+[ART_Langgraph_content](backend/ART_Langgraph_content)
 一个能够自动完成PPT内容研究与填充的AI智能体。该智能体接收一个结构化的PPT大纲（JSON格式），通过强化学习（Reinforcement Learning）进行训练，学会使用网络搜索工具来查找相关信息，填充大纲中的细节内容，并提供引用来源，最终输出一个内容详实、结构完整的PPT内容JSON。
 
 ## 核心技术
